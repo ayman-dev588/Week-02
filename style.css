@@ -13,6 +13,7 @@ html, body {
 }
 
 
+
 .sections {
   width: 100%;
   height: 100vh;
@@ -37,9 +38,15 @@ button{
   text-decoration: none;
   color:#fff;
   font-size: 3em;
-  padding: 20px;
+  padding: 0 25px 25px 25px;
   background: none;
-  border: none;
+  border-radius: 5px;
+  border: 1px solid #fff;
+}
+
+button:hover{
+background:#fff;
+color:#5c1790;
 }
 
 #section1 {
